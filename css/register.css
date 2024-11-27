@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top left, #000000, #c0c0c0);
+/*    background:linear-gradient(to bottom, #FFBB94,#FB9590,#4C1D3D );*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo{
+    border-bottom: 1px solid black;
+}
+
+.logo h1{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  color: aliceblue;
+  
+}
+
+.maintext{
+    float: left;
+    margin:190px -80px 190px 210px ;
+}
+
+.maintext h1{
+    font-size: 36px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper {
+    float: right;
+    margin:70px 0;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A33757;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/*.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}*/
+
+.wrapper .input_box{
+    margin: 25px;
+}
+
+.wrapper .input_box input {
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.wrapper .btn{
+    margin: 25px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+}
+
+input::placeholder{
+    color:white !important;
+}
+

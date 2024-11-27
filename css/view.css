@@ -1,0 +1,139 @@
+{
+            background-color: #1c1c1c;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+
+        }
+        .poppins-light {
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+}
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 200px;
+        }
+        .header .watch-now {
+            background-color: #ffcc00;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .header .favorite {
+            background-color: #ffffff;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+        .content img {
+            width: 300px;
+            height: 450px;
+            margin-right: 20px;
+        }
+        .content .details {
+            max-width: 600px;
+        }
+        .content .details h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .content .details .buttons {
+            margin: 10px 0;
+        }
+        .content .details .buttons button {
+            background-color: #ffffff;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .content .details .buttons button i {
+            margin-right: 5px;
+        }
+        .content .details .rating {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .content .details .rating .like-dislike {
+            margin-left: 10px;
+        }
+        .content .details .rating .like-dislike button {
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .content .details .rating .like-dislike button.dislike {
+            background-color: #6c757d;
+        }
+        .content .details .description {
+            margin: 20px 0;
+        }
+        .content .details .info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content .details .info div {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .links a {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social button {
+            background-color: #ffffff;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .social button i {
+            margin-right: 5px;
+        }

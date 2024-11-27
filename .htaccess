@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Disable Folder Access
+Options -Indexes
+RewriteBase /htmlTemp/
+
+# Rewrite Page rule
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^login$ authenticate/index.php [NC,L]
+RewriteRule ^register$ authenticate/register.php [NC,L]
+RewriteRule ^admin/post$ admin/posts.php [NC,L]
+RewriteRule ^view/([0-9a-zA-Z_-]+) view.php?permalink=$1 [NC,L]
+RewriteRule ^category/([0-9a-zA-Z_-]+) category.php?type=$1 [NC,L]
+
+
